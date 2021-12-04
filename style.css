@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.cover-bg{
+	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mb-30{
+	margin-top: 20px;
+}
+.pb-35{
+	padding-bottom: 35px;
+
+}
+.mt-35{
+	margin-top: 30px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.py-15{
+	    padding-top: 15px;
+	   padding: 100px 0;
+}
+h1,h2{
+	font-family: 'lato',sans-serif;
+	color: #151515;
+	font-weight: 100;
+}
+h5{
+	color: #fff;
+	font-size: 16px;
+}
+span, a{
+	display: inline-block;
+}
+/*** section title css ***/
+.section_title{
+	position:  relative;
+	margin-bottom: 70px;
+	width: 100%; 
+}
+.section_title p{
+	background-color: #1957f3;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 12px;
+	letter-spacing: 1px;
+}
+
+.section_title h3{
+	position: relative;
+	font-size: 36px;
+	text-transform: capitalize;
+	line-height: 1.14;
+	letter-spacing: 1.4px;
+	padding-bottom: 13px;
+}
+.btn{
+	background-color: #1957f3;
+	border: 2px solid  #1957f3;
+	padding-bottom: 15px 20px;
+	box-shadow: inset 0 0 0 0 #fff;
+	letter-spacing: 1px;
+	border-radius: 0;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.8s all;
+}
+
+.btn:hover
+{
+	box-shadow: inset 12em 0 0 0 #fff;
+	color:  #1957f3;
+}
+/** navbar ****/
+html{
+	scroll-behavior: smooth;
+}
+ .custom_logo{
+	background: #1957f3;
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 25px;
+	letter-spacing: 1px;
+	line-height: 2;
+	transform: skewX(30deg);
+}
+ .custom_logo span{
+	transform: skewX(-30deg);
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	transition: 0.5s all;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	color: ##1957f3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1957f3;
+}
+.navbar{
+	padding: 20px 0;
+	background: transparent; 
+}
+.nav-scroll{
+	background: #fff;
+	box-shadow: 0 1px 8px 3px rgba(0,0,0,0.05);
+	transition: 0.5s all;
+}
+.nav-scroll .navbar-nav li a{
+	color: #333 !important;
+}
+.navbar .navbar-toggler span{
+	color: #fff;
+}
+.navbar .navbar-toggler{
+	border: none;
+}
+.navbar .navbar-toggler:focus,
+
+.navbar .navbar-toggler:active{
+	outline: none;
+	box-shadow: none;
+}
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pots/3.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+
+}
+.banner .caption h1{
+	color: #ffffff;
+	font-size: 70px;
+	letter-spacing: -1px;
+}
+.banner .caption h2{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 400;
+}
+.banner .caption .social_icon a{
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	font-size: 16px;
+	transition: 0.5s all;
+
+}
+.banner .caption .social_icon a:hover{
+	color: #1957f3;
+
+}
+/**** about section css ****/
+.about .part_text h4{
+	font-size: 24px;
+
+}
+.about .part_text1 h6{
+	font-size: 24px;
+
+}
+
+.about .part_text1 h11{
+	font-size: 16px;
+color: #000;
+}
+
+.about .part_text1 h8{
+	font-size: 16px;
+    color: #000;
+}
+.about .part_text1 h10{
+	font-size: 16px;
+	color: #000;
+
+}
+.about .part_text p{
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text1 p1{
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text1 p2{
+	border-bottom: 1px solid #f1f1f1;
+}
+.about .part_text1 p3{
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text .info li{
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+/** pot **/
+.pot .part_photo .img-fluid {
+   
+	width: 80%;
+}
+.pot .part_text p{
+
+	border-bottom: 1px solid #f1f1f1;
+}
+.pot .part_text p1{
+
+	border-bottom: 1px solid #f1f1f1;
+}
+
+/**** services ***/
+.services .services_box{
+
+	border: 1px solid #fafafa;
+	transition: all 0.5s;
+}
+.services .services_box:hover{
+	box-shadow: -1px 3px 10px 0 rgba(0,0,0,0.8);
+}
+.services .box{
+	position: relative;
+	padding: 50px;
+}
+
+.services .services_box .social_icon a{
+	font-size: 38px;
+}
+.services .box_title{
+	position: relative;
+	margin-top: 10px;
+	padding-bottom: 8px;
+    overflow: hidden;	
+}
+.services .box_title:before{
+	content: '';
+	display: inline-block;
+	width: 15%;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(0,0,0,0.5);
+}
+.services .services_box:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid #0000ff;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+/*** contact ***/
+.contact{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pots/10.jpg);
+	background-attachment: fixed;
+}	
+.contact .section_title h3{
+	color: #fff;
+}
+.contact .part-info{
+	background: linear-gradient(to right, transparent, rgb(200,200,200,0.1), transparent);
+	padding: 30px;
+	margin-bottom: 50px;
+}		
+.contact .info-block{
+	border-right: 1px solid #fff;
+}
+
+.contact .part-info  .info-block .icon{
+	margin-bottom: 15px;
+
+}
+
+.contact .part-info  .info-block .icon i{
+	display: inline-block;
+	color: #fff;
+	font-size: 38px;
+	
+}
+.contact .part-info  .info-block h5{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+
+}
+.contact .part-info  .info-block p{
+	color: #fff;
+	opacity: 0.9
+
+}
+.contact .part-info .col-mb-4:last-child .info-block{
+	border-right: 0;
+}
+.contact .contact-form{
+	background: linear-gradient(to right,transparent,rgb(200,200,200,0.1), transparent);
+	padding: 30px;
+}
+.contact .contact-form input,
+.contact .contact-form textarea{
+	color: #fff;
+	background: transparent;
+	padding: 10px 15px;
+	border-radius: 0;
+	width: 100%;
+	border:  1px solid rgba(0,0,0,0.28);
+	margin-bottom: 15px;
+	font-size: 12px;
+	transition: 0.3s all;
+}
+.contact .contact-form input::placeholder,
+.contact .contact-form textarea::placeholder{
+	color: #fff;
+}
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus{
+	border: 1px solid #fff;
+	outline: none;
+	box-shadow: none;
+}
+.contact .contact-form textarea{
+	height: 120px;
+}
+/**** footer section ***/
+.footer{
+	background: #212121;
+	padding: 80px 0;
+}
+.footer .logo{
+
+	width: 100;
+	margin-bottom: 30px;
+
+}
+.footer .logo .custom_logo{
+  background: #1957f3;
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 25px;
+  letter-spacing: 1px;
+  line-height: 2;
+  transform: skewX(30deg);
+}
+.footer .logo .custom_logo span{
+	transform: skewX(-30deg);
+}
+.footer .social_icon{
+	margin: 0 auto;
+	width: 100%;
+}
+.footer .social_icon a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50px;
+	margin-right: 10px;
+	background: #252525;
+	transition: 0.5s all;
+}
+.footer .social_icon a i{
+	color: #fff;
+	font-size: 14px;
+}
+.footer .social_icon a:hover{
+	background: #1957f3;
+}
+.footer .copy{
+	width: 100%;
+	padding-top: 30px;
+}
+.footer .copy h6{
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
